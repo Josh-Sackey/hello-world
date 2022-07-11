@@ -21,8 +21,8 @@ jobs:
     docker:
       - image: cimg/base:2021.11
         auth:
-          username: yoophie97
-          password: Joshua0267643108
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD 
     steps:
       - checkout
       - run:
